@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 export interface Address {
   state: string;
   city: string;
@@ -13,8 +11,6 @@ export interface Offers {
 }
 
 export interface PropertyProps {
-  reviews: any[];
-  description: ReactNode;
   name: string;
   address: Address;
   rating: number;
